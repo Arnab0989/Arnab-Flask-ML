@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html >
-<!--From https://codepen.io/frytyler/pen/EGdtg-->
 <head>
   <meta charset="UTF-8">
   <title>ML API</title>
@@ -17,7 +16,7 @@
 	<h1>Salary Analysis</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post">
+    <form action="{{ url_for('predict')}}" method="post">
     	<input type="text" name="experience" placeholder="Experience" required="required" />
         <input type="text" name="test_score" placeholder="Test Score" required="required" />
 		<input type="text" name="interview_score" placeholder="Interview Score" required="required" />
